@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Google clone</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Google Homepage clone</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -12,17 +11,87 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <div>
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-        <a href="#">Search lab</a>
-        <a href="#">Google Apps</a>
+      <div class="top-left">
+        <div class="box1">
+          <a class="gmail" href="#">Gmail</a>
+          <a class="images" href="#">Images</a>
+        </div>
+        <div class="box2">
+          <a class="options" href="#">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+          <a class="profile" href="#">
+            <div class="dp"></div>
+          </a>
+        </div>
       </div>
     </header>
-    <main>Middle</main>
-    <footer>Footer</footer>
+    <div class="google">
+      <div class="logo"></div>
+    </div>
+    <div class="search-part">
+      <div class="search">
+        <div class="search-bar">
+          <div class="icon-border">
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <input placeholder="Google search" class="search-input"></input>
+          <div class="icon-border">
+            <a class="mic-icon" href="#" >
+              <i class="fa-solid fa-microphone"></i>
+            </a>
+          </div>
+          <div class="icon-border">
+            <a  class="image-search-icon" href="#">
+              <i class="fa-solid fa-image"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="search-buttons">
+        <div class="buttons">
+          <div class="buttons-down">Google Search</div>
+          <div class="buttons-down">I'm feeling lucky</div>
+        </div>
+      </div>
+    </div>
+    <div class="other-languages">
+      <div class="languages">
+        Google offered in:
+        <a href="#">मराठी</a>
+        <a href="#">हिन्दी</a>
+        <a href="#">বাংলা</a>
+        <a href="#">తెలుగు</a>
+        <a href="#">தமிழ்</a>
+        <a href="#">ಕನ್ನಡ</a>
+        <a href="#">ગુજરાતી</a>
+        <a href="#">മലയാളം</a>
+        <a href="#">ਪੰਜਾਬੀ</a>
+      </div>
+    </div>
+    <footer>
+      <div class="foot1">Maharashtra</div>
+      <div class="foot2">
+        <div class="about">
+            <a href="">About</a>
+            <a href="">Advertising</a>
+            <a href="">Business</a>
+            <a href="">How</a>
+            <a href="">Search</a>
+            <a href="">works</a>
+        </div>
+        <div class="privacy">
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Settings</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

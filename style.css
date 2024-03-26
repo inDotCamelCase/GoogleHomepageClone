@@ -1,7 +1,239 @@
+/* Default settings */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #202124;
+    color: white;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*Header*/
 header {
-    height: 60px;
+    height: 48px;
     width: 100%;
     display: flex;
     justify-content: end;
+}
+.top-left {
+    padding: 0px 4px 0px 32px;
+    height: 48px;
+    width: 217px;
+    display: flex;
     align-items: center;
+    justify-content: flex-end;
+}
+.box1 {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.gmail {
+    margin: 0px 5px 0px 5px;
+    text-decoration: none;
+}
+.gmail:hover {
+    text-decoration: underline;
+}
+.images {
+    margin: 0px 5px 0px 5px;
+    text-decoration: none;
+}
+.images:hover {
+    text-decoration: underline;
+}
+.box2 {
+    display: flex;
+}
+.options {
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.options:hover {
+    border-radius: 50%;
+    background-color: #52545c9a;
+}
+
+.profile {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.profile:hover {
+    border-radius: 50%;
+    background-color: #52545c9a;
+}
+.dp {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url("dp-gmail.jpeg");
+    background-size: cover;
+}
+/*google logo*/
+.google {
+    height: 92px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    height: 92px;
+    width: 272px;
+    background-image: url("google_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Search part*/
+.search-part {
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /* justify-content: center; */
+}
+.search-bar {
+    height: 46px;
+    width: 582px;
+    border: 1px solid grey;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    background-color: none;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+/*search icon*/
+.icon-border {
+    background-color: none;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 39px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    border: none;
+    height: 27px;
+    width: 70%;
+    outline: none;
+}
+
+.buttons {
+    height: 36px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 8px 5px 8px;
+    background-color: #323438;
+    border-radius: 5px;
+    border: 2px solid #202124;
+}
+.buttons-down:hover {
+    border: 2px solid #5e5f5f;
+}
+/*Other languages*/
+.languages {
+    padding-top: 15px;
+    height: 16.5rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-grow: 1;
+}
+.languages a {
+    margin-left: 6px;
+    text-decoration: none;
+    color: aquamarine;
+}
+.languages a:hover {
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 10px;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.foot1 {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: #17181a;
+}
+.foot2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+    background-color: #17181a;
+    border-top: 0.8px solid #202124;
+}
+.foot2 a {
+    background-color: #17181a;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4px;
+    text-decoration: none;
+}
+.foot2 a:hover {
+    text-decoration: underline;
+}
+.about {
+    margin: 0px 0px 0px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #17181a;
+}
+.privacy {
+    margin: 0px 30px 0px 30px;
+    background-color: #17181a;
 }
